@@ -17,7 +17,7 @@
          <h1 class="header-main-title">Buscar por </h1>
          <button type="button" onclick="porPersonagem()" class="btn btn-danger">Personagens</button>
          <button type="button" onclick="porId()" class="btn btn-danger">Personagem por ID</button>
-         <button type="button" onclick="porComic()" class="btn btn-danger">Quadrinho</button>
+         <button type="button" onclick="porComic()" class="btn btn-danger">Quadrinhos</button>
          <button type="button" onclick="porSerie()" class="btn btn-danger">Séries</button>
          <button type="button" onclick="porEvento()" class="btn btn-danger">Eventos</button>
          <button type="button" onclick="porHistoria()" class="btn btn-danger">Histórias</button>
@@ -298,7 +298,7 @@
       <h1 class="header-main-title">Buscar personagem por história</h1>
       <form id="formBuscaPersonagemHistoria">
          <div class="form-group">
-           <label for="characterIdH" style="color:#FFFFFF">#Id:</label>
+           <label for="characterIdH" style="color:#FFFFFF">#ID:</label>
             <input required type="text"
                    name="characterIdH"
                    id="characterIdH"
