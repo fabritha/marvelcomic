@@ -15,12 +15,12 @@
    <div class="jumbotron">
       <div class="container">
          <h1 class="header-main-title">Buscar por </h1>
-         <button type="button" onclick="porPersonagem()" class="btn btn-danger">personagem</button>
-         <button type="button" onclick="porId()" class="btn btn-danger">ID</button>
-         <button type="button" onclick="porComic()" class="btn btn-danger">quadrinho</button>
-         <button type="button" onclick="porSerie()" class="btn btn-danger">serie</button>
-         <button type="button" onclick="porEvento()" class="btn btn-danger">evento</button>
-         <button type="button" onclick="porHistoria()" class="btn btn-danger">história</button>
+         <button type="button" onclick="porPersonagem()" class="btn btn-danger">Personagens</button>
+         <button type="button" onclick="porId()" class="btn btn-danger">Personagem por ID</button>
+         <button type="button" onclick="porComic()" class="btn btn-danger">Quadrinho</button>
+         <button type="button" onclick="porSerie()" class="btn btn-danger">Séries</button>
+         <button type="button" onclick="porEvento()" class="btn btn-danger">Eventos</button>
+         <button type="button" onclick="porHistoria()" class="btn btn-danger">Histórias</button>
       </div>
    </div>
 
