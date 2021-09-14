@@ -15,10 +15,10 @@ if (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && ($_SERVER['HTTP_X_REQUESTED_WITH
    );
    $params = '';
    if(!empty($_GET['name'])){
-      $params .= 'name='.$_GET['name'].'&';
+      $params .= 'name='.str_replace(" ",'-',trim($_GET['name'])).'&';
    }
    if(!empty($_GET['nameStartsWith'])){
-      $params .= 'nameStartsWith='.$_GET['nameStartsWith'].'&';
+      $params .= 'nameStartsWith='.str_replace(" ",'-',trim($_GET['nameStartsWith'])).'&';
    }
    if(!empty($_GET['modifiedSince'])){
       $params .= 'modifiedSince='.$_GET['modifiedSince'].'&';
