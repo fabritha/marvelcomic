@@ -20,3 +20,5 @@ Busca por informações referentes as histórias;
 
 No backend foi implementado todos os atributos necessários para fazer a busca completa via api da marvel, utilizando a linguagem PHP e fazendo comunicação via CURL;
 
+Para utilização basta fazer o download dos arquivos e rodar com apache;
+
