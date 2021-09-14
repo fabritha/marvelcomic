@@ -37,6 +37,7 @@ function porComic(){
    document.getElementById('porcomic').style.display      = "block";
    document.getElementById('porserie').style.display      = "none";
    document.getElementById('porevento').style.display     = "none";
+   document.getElementById('porhistoria').style.display   = "none";
 
    document.getElementById("viewPersonagem").innerHTML          = '';
    document.getElementById("viewPersonagensSerie").innerHTML     = '';
