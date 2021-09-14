@@ -260,7 +260,7 @@ function conectarPersonagens(url) {
                      '<p class="card-text mb-3" id="characterDescription">';
 
                if (retorno[i].description !== "") {
-                  html += retorno.description;
+                  html += retorno[i].description;
                }
 
                html +=
