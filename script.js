@@ -227,7 +227,7 @@ function conectarPersonagens(url) {
 
          const results = JSON.parse(this.responseText);
 
-         if (results["code"] != 200 || results["data"].count === 0) {
+         if (results == null || results["code"] != 200 || results["data"].count === 0) {
             document.getElementById("viewPersonagem").innerHTML ='<h2 id="tituloPersonagem"><span style="font-weight:bold;">Sem Resultados</span></h2>';
             document.getElementById("spinnerChar").innerHTML = "";
 
@@ -259,7 +259,7 @@ function conectarPersonagens(url) {
                      " </h3>" +
                      '<p class="card-text mb-3" id="characterDescription">';
 
-               if (retorno[i].description !== "") {
+               if (retorno[i].description != "") {
                   html += retorno[i].description;
                }
 
@@ -315,7 +315,7 @@ function conectarPersonagensSerie(url) {
 
          const results = JSON.parse(this.responseText);
 
-         if (results["code"] != 200 || results["data"].count === 0) {
+         if (results == null || results["code"] != 200 || results["data"].count === 0) {
             document.getElementById("viewPersonagensSerie").innerHTML ='<h2 id="tituloPersonagem"><span style="font-weight:bold;">Sem Resultados</span></h2>';
             document.getElementById("spinnerChar").innerHTML = "";
 
@@ -377,7 +377,7 @@ function conectarPersonagensQuadrinho(url) {
 
          const results = JSON.parse(this.responseText);
 
-         if (results["code"] != 200 || results["data"].count === 0) {
+         if (results == null || results["code"] != 200 || results["data"].count === 0) {
             document.getElementById("viewPersonagensQuadrinho").innerHTML ='<h2 id="tituloPersonagem"><span style="font-weight:bold;">Sem Resultados</span></h2>';
             document.getElementById("spinnerChar").innerHTML = "";
 
@@ -440,7 +440,7 @@ function conectarPersonagensEventos(url) {
 
          const results = JSON.parse(this.responseText);
 
-         if (results["code"] != 200 || results["data"].count === 0) {
+         if (results == null || results["code"] != 200 || results["data"].count === 0) {
             document.getElementById("viewPersonagensEventos").innerHTML ='<h2 id="tituloPersonagem"><span style="font-weight:bold;">Sem Resultados</span></h2>';
             document.getElementById("spinnerChar").innerHTML = "";
 
@@ -511,7 +511,7 @@ function conectarPersonagensStory(url) {
 
          const results = JSON.parse(this.responseText);
 
-         if (results["code"] != 200 || results["data"].count === 0) {
+         if (results == null || results["code"] != 200 || results["data"].count === 0) {
             document.getElementById("viewPersonagensStory").innerHTML ='<h2 id="tituloPersonagem"><span style="font-weight:bold;">Sem Resultados</span></h2>';
             document.getElementById("spinnerChar").innerHTML = "";
 
